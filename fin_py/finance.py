@@ -11,7 +11,7 @@ def futureValue_simple():
     result = rate * presentValue
 
     # printing out the results
-    return "The future value of {} of {} years is '%.3f'".format(
+    return "The future value of {} of {} years is %.3f".format(
         presentValue, time) % result
 
 
@@ -31,3 +31,15 @@ def futureValue_compound():
     # printing out the results
     return "The future value of {} of {} years is %.3f".format(
         presentValue, time) % result
+
+
+def effecticeInterestRate():
+    """
+    This program help you to find the effective interest rate!
+    """
+    rate = float(input("What is your interest rate:\n"))
+    compound = int(input("How many times in a year you give interest:\n"))
+
+    EIR = (1 + ((rate/100)/compound))**compound - 1
+    eir = EIR*100
+    return "Your effective interest rate is: %.3f" % eir

@@ -7,11 +7,11 @@ This is a basic financial Calculator!
 
 ---
 
-This module will help the students who are finance backgrounded and also for professional useage. This will be upgraded. You can use it through python. Type the command in the terminal **python3 -m pip install fin_py**
+This module will help the students who are finance backgrounded and also for professional useage. This will be upgraded. You can use it through python. Type the command in the terminal **python3 -m pip install fin-py**
 
 > **Note**
 >
-> - First go to python shell and type **>>>from fin_py import finance as f**
+> - First go to python shell and type **>>>from fin-py import finance as f**
 > - The following functions are given..
 > - You can calculate future value with simple interest with the function futureValue_simple.
 > - **>>> f.futureValue_simple()**
@@ -20,4 +20,7 @@ This module will help the students who are finance backgrounded and also for pro
 > - You can calculate future value with with compound interest with the function futureValue_compound.
 > - **>>> f.futureValue_compuond()**
 > - This will ask you some variables
-> - Other calculations are comming soon...
+
+> - Newly added how to find the effective interest rate of a certain rate.
+> - **>>> f.effecticeInterestRate()**
+> - As usual it will take some rates from you and calculate for you.
