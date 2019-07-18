@@ -1,0 +1,8 @@
+README.md
+setup.py
+fin4py/__init__.py
+fin4py/finance.py
+fin4py.egg-info/PKG-INFO
+fin4py.egg-info/SOURCES.txt
+fin4py.egg-info/dependency_links.txt
+fin4py.egg-info/top_level.txt

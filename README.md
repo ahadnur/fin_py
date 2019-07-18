@@ -7,11 +7,11 @@ This is a basic financial Calculator!
 
 ---
 
-This module will help the students who are finance backgrounded and also for professional useage. This will be upgraded. You can use it through python. Type the command in the terminal **python3 -m pip install fin-py**
+This module will help the students who are finance backgrounded and also for professional useage. This will be upgraded. You can use it through python. Type the command in the terminal **python3 -m pip install fin4py**
 
 > **Note**
 >
-> - First go to python shell and type **>>>from fin-py import finance as f**
+> - First go to python shell and type **>>>from fin4py import finance as f**
 > - The following functions are given..
 > - You can calculate future value with simple interest with the function futureValue_simple.
 > - **>>> f.futureValue_simple()**

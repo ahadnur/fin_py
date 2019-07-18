@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     # Here is the module name.
-    name="fin_py",
+    name="fin4py",
 
     # version of the module
-    version="0.0.5",
+    version="0.0.2",
 
     # Name of Author
     author="Md. Ahadujjaman Nur",
